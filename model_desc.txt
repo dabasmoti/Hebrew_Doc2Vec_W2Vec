@@ -1,0 +1,23 @@
+Doc2Vec(dbow+w,d300,n5,w5,mc5,t8)
+Namespace(csv='/root/moti/doc2vec/utils/articles.csv'
+ csv_encoding='utf-8-sig'
+ data_path='/root/moti/doc2vec/data/'
+ dbow_words=1
+ dm=0
+ epoches=15
+ file_type='.txt'
+ hs=0
+ max_files=None
+ min_count=5
+ negative=5
+ out_put=None
+ pickle_file=None
+ remove_stp='yes'
+ sample=0
+ save='/root/moti/doc2vec/models'
+ sort_col='brand'
+ sort_date_col='publish_time'
+ tag_col='article_id'
+ vec_size=300
+ window=3
+ workers=8)
